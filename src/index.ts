@@ -19,7 +19,7 @@ export const Config: Schema<Config> = Schema.object({
     .description('接收提醒的用户ID')
     .required(),
   selfId: Schema.string()
-    .description('发送提醒的机器人ID（格式为 平台名:用户ID）')
+    .description('发送提醒的机器人ID，格式为 平台名:用户ID，平台名以右下角状态栏显示的为准')
     .required(),
   limit: Schema.number()
     .description('内存使用量(%)超过多少时发送提醒')
