@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-memory-alert",
   "description": "当内存用量超过一定百分比后向指定用户发送提醒",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
